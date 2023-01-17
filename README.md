@@ -1,2 +1,3 @@
-# APItesting
-API testing using RESTAssured
+# DemoTesting
+
+In the project I have demonstrated the API testing and Web UI testing.
