@@ -4,14 +4,14 @@
 	
 	<test name="API testing">
 		<classes>
-			<class name="com.demoapitesting" />
+			<class name="com.apitesting.DemoApiTest" />
 		</classes>
 	</test>
 
 	<test name="Demo Web UI test suite">
 		<!--<parameter name="browser" value= "chrome" />-->
 		<classes>
-			<class name="com.webUItesting.test.setup" />
+			<class name="com.webuitesting.test.setup" />
 		</classes>
 	</test>
 </suite>

@@ -59,11 +59,11 @@ public class setup {
 
     @Test(priority = 1)
     public void TestLoginPage() { // calling loginPage
-        System.out.println("*---* FID 84 Slider *---*");
-        System.out.println("Test 1 started");
+        
+        System.out.println("Login test started");
         objLoginpage = new loginPage(driver);
         objLoginpage.UsernameAndPassword(username, password);
-        System.out.println("Test 1 ended");
+        System.out.println("Login test ended");
     }
 
    /*@Test(dependsOnMethods = { "TestLoginPage" })

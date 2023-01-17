@@ -19,8 +19,9 @@ public class DemoApiTest
             Response responseGetUsers = RestAssured.given().contentType(ContentType.JSON)
                     .get("https://reqres.in/api/users?page=2");
     
-            System.out.println(responseGetUsers.toString());
+            //System.out.println(responseGetUsers.toString());
             Assert.assertEquals(responseGetUsers.jsonPath().get("page"), 2);
+            System.out.println("listUsers passed");
         }
     
     
@@ -44,6 +45,7 @@ public class DemoApiTest
                     .post("https://reqres.in/api/users");
 
             Assert.assertEquals(responseCreateCar.statusLine().contains("Created"), true);
+            System.out.println("createUser passed");
         }
 
         @Test(dependsOnMethods = { "createUser" })
@@ -66,5 +68,6 @@ public class DemoApiTest
                     .post("https://reqres.in/api/users");
 
                     Assert.assertEquals(responseUpdateUser.jsonPath().get("job"), "zion resident");
+            System.out.println("updateUser passed");
         }
 }
