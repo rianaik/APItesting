@@ -4,8 +4,6 @@ This repository contains UI and API tests for a web application using Selenium, 
 
 Project Structure
 
-markdown
-Copy code
 - src/test/java
   - com.example.tests
     - api
