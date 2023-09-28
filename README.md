@@ -24,12 +24,12 @@ The testng.xml file is the TestNG configuration file that specifies the test cla
 ## Running the Tests
 
 To run the tests, follow these steps:
-```
+
 - Clone the repository.
-- Install the dependencies by running mvn install.
-- Update the config.properties file with the appropriate values.
-- Run the tests by running mvn test.
-```
+- Install the dependencies by running `mvn install`.
+- Update the `config.properties` file with the appropriate values.
+- Run the tests by running `mvn test`.
+  
 ## API Tests
 
 The API tests use RestAssured to make HTTP requests to the API and verify the responses.
