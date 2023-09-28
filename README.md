@@ -28,7 +28,7 @@ To run the tests, follow these steps:
 > Clone the repository.
 > Install the dependencies by running mvn install.
 > Update the config.properties file with the appropriate values.
-? Run the tests by running mvn test.
+> Run the tests by running mvn test.
 
 ## API Tests
 
