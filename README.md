@@ -25,10 +25,10 @@ The testng.xml file is the TestNG configuration file that specifies the test cla
 
 To run the tests, follow these steps:
 ```
-> Clone the repository.
-> Install the dependencies by running mvn install.
-> Update the config.properties file with the appropriate values.
-> Run the tests by running mvn test.
+- Clone the repository.
+- Install the dependencies by running mvn install.
+- Update the config.properties file with the appropriate values.
+- Run the tests by running mvn test.
 ```
 ## API Tests
 
@@ -50,9 +50,9 @@ The UITest class contains the actual UI tests. It uses the TestNG framework to d
 
 The config.properties file contains the following properties:
 ```
-`api.baseurl`: The base URL of the API.
-`ui.baseurl`: The base URL of the web application.
-`ui.browser`: The name of the browser to use for the UI tests (e.g. chrome, firefox).
+- `api.baseurl`: The base URL of the API.
+- `ui.baseurl`: The base URL of the web application.
+- `ui.browser`: The name of the browser to use for the UI tests (e.g. chrome, firefox).
 ```
 ## Contributing
 
