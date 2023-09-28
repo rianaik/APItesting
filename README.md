@@ -49,11 +49,11 @@ The UITest class contains the actual UI tests. It uses the TestNG framework to d
 ## Configuration
 
 The config.properties file contains the following properties:
-```
+
 - `api.baseurl`: The base URL of the API.
 - `ui.baseurl`: The base URL of the web application.
 - `ui.browser`: The name of the browser to use for the UI tests (e.g. chrome, firefox).
-```
+
 ## Contributing
 
 If you find a bug or have a feature request, please open an issue or submit a pull request.
